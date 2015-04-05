@@ -4,7 +4,7 @@ Node.js/io.js module. Fetch and describe URLs (Tweets, GitHub repos, YouTube vid
 
 ## Install
 
-Add `fleece` to your `package.json` or `npm istall fleece`.
+Add `fleece` to your `package.json` or `npm install fleece`.
 
 ## Use
 
