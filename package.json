@@ -8,7 +8,6 @@
   "version": "0.0.1",
   "dependencies": {
     "cheerio": "0.x",
-    "floorine": "0.3.x",
     "lodash": "3.x",
     "request": "2.x"
   },
