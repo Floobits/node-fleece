@@ -1,0 +1,30 @@
+{
+  "name": "fleece",
+  "repository": "https://github.com/Floobits/fleece/",
+  "contributors": [
+    "Matt Kaniaris <mkaniaris@gmail.com>",
+    "Geoff Greer <geoff@greer.fm>"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "0.x",
+    "floorine": "0.3.x",
+    "lodash": "3.x",
+    "request": "2.x"
+  },
+  "devDependencies": {
+    "eslint": "0.x"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib:tests node ./tests/test.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "https://github.com/Floobits/fleece/blob/master/LICENSE"
+    }
+  ]
+}
