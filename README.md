@@ -2,6 +2,8 @@
 
 Node.js/io.js module. Fetch and describe URLs (Tweets, GitHub repos, YouTube videos, etc). Useful for IRC bots.
 
+[![Build Status](https://travis-ci.org/Floobits/node-fleece.svg)](https://travis-ci.org/Floobits/node-fleece)
+
 [![Floobits Status](https://floobits.com/Floobits/node-fleece.svg)](https://floobits.com/Floobits/node-fleece/redirect)
 
 ## Install
