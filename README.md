@@ -44,7 +44,7 @@ Crockford on JavaScript - Section 8: Programming Style & Your Brain 1:06:46 79,9
 
 describe_url("https://twitter.com/SpaceX/status/556131313905070081");
 
-&lt;@SpaceX&rt; Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK  (12,216 retweets, 9,328 favorites)
+&lt;@SpaceX&gt; Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK  (12,216 retweets, 9,328 favorites)
 
 ---
 
