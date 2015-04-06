@@ -18,7 +18,7 @@ function test_url(url, expected) {
       console.log("URL %s: No result", url);
       return;
     }
-    console.log(url, "\n" ,result);
+    console.log(url, "\n", result);
   });
 }
 

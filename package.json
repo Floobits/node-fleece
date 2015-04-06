@@ -31,7 +31,8 @@
   },
   "scripts": {
     "test": "NODE_PATH=lib:tests node ./tests/test.js",
-    "install": ""
+    "install": "",
+    "lint": "./node_modules/eslint/bin/eslint.js lib/*.js tests/*.js"
   },
   "licenses": [
     {
