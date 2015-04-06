@@ -37,15 +37,19 @@ floobits-sublime (11 stars 213 forks) Floobits real-time collaboration plugin fo
 This works for more than just GitHub URLs. Fleece also supports Twitter, YouTube, and Hacker News:
 
 `describe_url("https://www.youtube.com/watch?v=taaEzHI9xyY#t=26m50s");`
+
 Crockford on JavaScript - Section 8: Programming Style & Your Brain 1:06:46 79,990 views 100% like
 
 `describe_url("https://twitter.com/SpaceX/status/556131313905070081");`
+
 <@SpaceX> Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK  (12,216 retweets, 9,328 favorites)
 
 `describe_url("https://github.com/Floobits/floobits-sublime");`
+
 floobits-sublime (11 stars 213 forks) Floobits real-time collaboration plugin for Sublime Text 2 and 3
 
 `describe_url("https://news.ycombinator.com/item?id=6577671");`
+
 Accidentally Turing-Complete (http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html) 107 points by ggreer 533 days ago  | 48 comments
 
-For another usage example, see [floobot](https://github.com/Floobits/floobot/blob/d06f6b21400d971ef3b9c280ab2a5404dff91285/lib/server.js#L104).
+For another usage example, see [floobot](https://github.com/Floobits/floobot/blob/c02905bbdcc4eaee57ce9e7275cfbf954d4bef53/lib/server.js#L104).
