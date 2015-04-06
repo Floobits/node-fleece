@@ -9,4 +9,4 @@ branches:
     - master
 
 script:
-  - npm test && num run lint
+  - npm test && npm run lint
