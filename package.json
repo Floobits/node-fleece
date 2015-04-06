@@ -1,13 +1,13 @@
 {
   "name": "fleece",
   "description": "Fetch URLs and describe them in one line.",
-  "homepage": "https://github.com/Floobits/fleece",
+  "homepage": "https://github.com/Floobits/node-fleece",
   "repository": {
     "type": "git",
-    "url": "git://github.com:Floobits/fleece.git"
+    "url": "git://github.com:Floobits/node-fleece.git"
   },
   "bugs": {
-    "url": "https://github.com/Floobits/fleece/issues"
+    "url": "https://github.com/Floobits/node-fleece/issues"
   },
   "contributors": [
     "Matt Kaniaris <mkaniaris@gmail.com>",
@@ -37,7 +37,7 @@
   "licenses": [
     {
       "type": "Apache 2.0",
-      "url": "https://github.com/Floobits/fleece/blob/master/LICENSE"
+      "url": "https://github.com/Floobits/node-fleece/blob/master/LICENSE"
     }
   ]
 }
