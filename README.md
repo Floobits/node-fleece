@@ -20,7 +20,7 @@ fleece.get_url_msg("https://github.com/Floobits/floobits-sublime", function (err
     return;
   }
   if (!result) {
-    // Empty <title>, URL is an image, etc
+    // No outright error, but empty <title>, URL is an image, etc
     console.log("No result");
     return;
   }
