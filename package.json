@@ -1,6 +1,6 @@
 {
   "name": "fleece",
-  "description": "Fetch a URLs and describe in one line.",
+  "description": "Fetch URLs and describe them in one line.",
   "homepage": "https://github.com/Floobits/fleece",
   "repository": {
     "type": "git",
