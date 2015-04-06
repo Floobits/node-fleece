@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "0.12"
+  - "iojs"
+
+branches:
+  only:
+    - master
+
+script:
+  - npm test && num run lint
