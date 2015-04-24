@@ -13,7 +13,7 @@
     "Matt Kaniaris <mkaniaris@gmail.com>",
     "Geoff Greer <geoff@greer.fm>"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "cheerio": "0.x",
     "lodash": "3.x",
