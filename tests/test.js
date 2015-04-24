@@ -33,7 +33,7 @@ test_url(
 
 test_url(
   "https://twitter.com/SpaceX/status/556131313905070081",
-  "^<@SpaceX> Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK  \\([\\d,]+ retweets, [\\d,]+ favorites\\)"
+  "^<@SpaceX> Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK[\\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
 );
 
 // TODO: this test is rather brittle. Any small change to whitespace on HN could break it.
