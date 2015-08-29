@@ -20,7 +20,8 @@
     "request": "2.x"
   },
   "devDependencies": {
-    "eslint": "1.x"
+    "eslint": "1.x",
+    "eslint-config-floobits": "*"
   },
   "engines": {
     "node": ">=0.12.0"
