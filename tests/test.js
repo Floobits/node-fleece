@@ -11,7 +11,7 @@ function test_url(url, expected) {
       throw new Error(err);
     }
     if (result.match(expected) === null) {
-      throw new Error(util.format("Expected %s but got %s", expected, result));
+      throw new Error(util.format("Expected '%s' but got '%s'", expected, result));
     }
     if (!result) {
       console.log("URL %s: No result", url);
@@ -28,7 +28,7 @@ function test_url(url, expected) {
 
 test_url(
   "https://github.com/Floobits/floobits-sublime",
-  "^floobits-sublime \\(\\d+ stars \\d+ forks\\) .*$"
+  "^floobits-sublime \\(\\d+ stars \\d+ forks\\).*$"
 );
 
 test_url(
