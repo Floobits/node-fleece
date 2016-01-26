@@ -16,7 +16,6 @@
   "version": "0.1.5",
   "dependencies": {
     "cheerio": "0.x",
-    "lodash": "3.x",
     "request": "2.x"
   },
   "devDependencies": {
