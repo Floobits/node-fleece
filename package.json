@@ -34,10 +34,5 @@
     "install": "",
     "lint": "./node_modules/eslint/bin/eslint.js lib/*.js tests/*.js"
   },
-  "licenses": [
-    {
-      "type": "Apache 2.0",
-      "url": "https://github.com/Floobits/node-fleece/blob/master/LICENSE"
-    }
-  ]
+  "license": "Apache-2.0"
 }
