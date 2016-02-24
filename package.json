@@ -19,7 +19,7 @@
     "request": "2.x"
   },
   "devDependencies": {
-    "eslint": "1.x",
+    "eslint": "2.x",
     "eslint-config-floobits": "*"
   },
   "engines": {
