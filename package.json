@@ -19,11 +19,11 @@
     "request": "2.x"
   },
   "devDependencies": {
-    "eslint": "2.x",
+    "eslint": "3.x",
     "eslint-config-floobits": "*"
   },
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=4.0"
   },
   "main": "lib/fleece.js",
   "directories": {
