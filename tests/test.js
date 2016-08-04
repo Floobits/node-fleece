@@ -38,7 +38,12 @@ test_url(
 
 test_url(
   "https://twitter.com/SpaceX/status/556131313905070081",
-  "^<@SpaceX> Close, but no cigar. This time. https://vine.co/v/OjqeYWWpVWK[\\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
+  "^<@SpaceX> Close, but no cigar. This time. vine.co/v/OjqeYWWpVWK[\\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
+);
+
+test_url(
+  "https://twitter.com/Bootleg_Stuff/status/752694646682169344",
+  "^<@Bootleg_Stuff> 9/11 was a part time job pic.twitter.com/SKSBMLzt0L [\\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
 );
 
 // TODO: this test is rather brittle. Any small change to whitespace on HN could break it.
