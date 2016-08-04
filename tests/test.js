@@ -21,10 +21,10 @@ function test_url(url, expected) {
   });
 }
 
-// test_url(
-//   "https://twitter.com/ggreer/status/588220411529297921",
-//   "<@ggreer> An emoji haiku titled, Drinking on a School Night 📝🕙😐🍺😊 😏🍻😜🍻✨😴💤 🌄⏰😩🕘😱[\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
-// );
+test_url(
+  "https://twitter.com/ggreer/status/588220411529297921",
+  "<@ggreer> An emoji haiku titled, Drinking on a School Night[\\s]+📝🕙😐🍺😊  😏🍻😜🍻✨😴💤  🌄⏰😩🕘😱[\\s]+\\([\\d,]+ retweets, [\\d,]+ favorites\\)"
+);
 
 test_url(
   "https://github.com/Floobits/floobits-sublime",
