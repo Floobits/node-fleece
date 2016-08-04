@@ -31,6 +31,7 @@
   },
   "scripts": {
     "test": "NODE_PATH=lib:tests node ./tests/test.js",
+    "debug": "NODE_PATH=lib:tests node debug ./tests/test.js",
     "install": "",
     "lint": "./node_modules/eslint/bin/eslint.js lib/*.js tests/*.js"
   },
