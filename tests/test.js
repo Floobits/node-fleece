@@ -51,3 +51,13 @@ test_url(
   "https://news.ycombinator.com/item?id=6577671",
   "Accidentally Turing-Complete \\(http:\\/\\/beza1e1\\.tuxen\\.de\\/articles\\/accidentally_turing_complete\\.html\\)[\\s]+\\d+ points by ggreer \\d+ days ago[\\s]+\\| \\d+ comments"
 );
+
+test_url(
+  "https://www.reddit.com/r/pics/comments/92dd8/test_post_please_ignore/",
+  "test post please ignore | submitted \\d+ years ago by qgyh2 | [\\s]+\\d+ points, \\d+ comments"
+);
+
+test_url(
+  "https://www.reddit.com/r/videos/comments/43wsdi/history_of_japan/",
+  "History of Japan \\(https://www.youtube.com/watch\\?v=Mh5LY4Mz15o\\) | submitted \\d+ (month|year)s ago by MannschaftPilz | [\\s]+\\d+ points, \\d+ comments"
+);
