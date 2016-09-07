@@ -49,7 +49,7 @@ test_url(
 // TODO: this test is rather brittle. Any small change to whitespace on HN could break it.
 test_url(
   "https://news.ycombinator.com/item?id=6577671",
-  "Accidentally Turing-Complete \\(http:\\/\\/beza1e1\\.tuxen\\.de\\/articles\\/accidentally_turing_complete\\.html\\)[\\s]+\\d+ points by ggreer \\d+ days ago[\\s]+\\| \\d+ comments"
+  "Accidentally Turing-Complete \\(http:\\/\\/beza1e1\\.tuxen\\.de\\/articles\\/accidentally_turing_complete\\.html\\)[\\s]+\\d+ points by ggreer \\d+ days ago[\\s]+\\| \\d+ comments$"
 );
 
 test_url(
