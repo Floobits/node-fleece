@@ -58,6 +58,11 @@ test_url(
 );
 
 test_url(
+  "https://www.reddit.com/r/videos/",
+  "/r/Videos"
+);
+
+test_url(
   "https://www.reddit.com/r/videos/comments/43wsdi/history_of_japan/",
   "History of Japan \\(https://www.youtube.com/watch\\?v=Mh5LY4Mz15o\\) | submitted \\d+ (month|year)s ago by MannschaftPilz | [\\s]+\\d+ points, \\d+ comments"
 );
