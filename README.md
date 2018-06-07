@@ -1,6 +1,6 @@
 # Fleece
 
-Node.js/io.js module. Fetch and describe URLs (Tweets, GitHub repos, YouTube videos, etc). Useful for IRC bots.
+Node.js/io.js module. Fetch and describe URLs (Tweets, GitHub repos, etc). Useful for IRC bots.
 
 [![npm version](https://badge.fury.io/js/fleece.svg)](http://badge.fury.io/js/fleece)
 
@@ -36,13 +36,7 @@ Assuming no network errors, the output should be:
 
 floobits-sublime (11 stars 213 forks) Floobits real-time collaboration plugin for Sublime Text 2 and 3
 
-This works for more than just GitHub URLs. Fleece also supports Twitter, YouTube, and Hacker News:
-
-describe_url("https://www.youtube.com/watch?v=taaEzHI9xyY#t=26m50s");
-
-Crockford on JavaScript - Section 8: Programming Style & Your Brain 1:06:46 79,990 views 100% like
-
----
+This works for more than just GitHub URLs. Fleece also supports Twitter and Hacker News:
 
 describe_url("https://twitter.com/SpaceX/status/556131313905070081");
 
